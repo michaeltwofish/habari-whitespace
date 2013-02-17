@@ -19,10 +19,7 @@ The port was done by Andy Cowling (andycowl@gmail.com) as a learning
 exercise using the fine examples of the existing Habari themes
 (Connections, Redarry, Mzini, K2).
 
-Michael C Harris (michael@twofishcreative.com) was also kind enough to
-spare a lot of time to lend his considerable expertise and gave me
-invaluable help and assistance on PHP, CSS and constructing Habari
-themes.
+The Habari theme is now maintained by Michael C. Harris (michael@twofishcreative.com).
 
 0.1 (20 February 2008)
     - Initial release
@@ -44,3 +41,6 @@ themes.
     - fixed XHTML validation
     - tested with Habari 0.5
     - added missing </div> for single pages
+
+0.6 ()
+    - update XML for later Habari versions
