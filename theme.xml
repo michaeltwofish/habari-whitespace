@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<theme>
+<pluggable type="theme">
 	<name>Whitespace</name>
-	<author>Brian Gardner (WordPress theme) and Andy Cowling (Habari port)</author>
-	<url>http://www.nbrightside.com/blog/whitespace</url>
-	<version>0.5</version>
+	<license url="http://www.opensource.org/licenses/gpl-license.php">GNU General Public License (GPL)</license>
+	<author url="http://www.briangardner.com/">Brian Gardner (WordPress theme)</author>
+	<author url="http://www.nbrightside.com/">Andy Cowling (Habari port)</author>
+	<author url="http://twofishcreative.com/michael/blog">Michael C. Harris (maintainer)</author>
+	<url>https://github.com/michaeltwofish/habari-whitespace</url>
+	<version>0.6</version>
 	<template_engine>rawphpengine</template_engine>
-</theme>
+	<description><![CDATA[A Habari port of Brian Gardner's WordPress theme.]]></description>
+</pluggable>
