@@ -1,19 +1,21 @@
 <!-- entry.single -->
-<?php include 'header.php'; ?>
+<?php $theme->display('header'); ?>
 
 <div id="content">
 
-<?php include 'l_sidebar.php'; ?>
+<?php $theme->display('l_sidebar'); ?>
 
 <div id="contentleft">
 
-  <?php $single= true; ?>
-  <?php include 'entry.php'; ?>
+  <?php
+    $single= true;
+    $theme->display('entry');
+    $theme->display('comments');
+  ?>
 
-  <?php include_once( 'comments.php' ); ?>
 </div> <!-- #contentleft -->
 
 </div> <!-- wrap -->
 
-<?php include 'footer.php'; ?>
+<?php $theme->display('footer'); ?>
 <!-- /entry.single -->

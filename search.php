@@ -1,8 +1,8 @@
-<?php include 'header.php'; ?>
+<?php $theme->display('header'); ?>
 <!-- search -->
 <div id="content">
 
-<?php include 'l_sidebar.php'; ?>
+<?php $theme->display('l_sidebar'); ?>
 
 <div id="contentleft">
 <?php if ( count($posts) != 0 ): ?>
@@ -58,9 +58,9 @@
 </div> <!-- #contentleft -->
 
 
-<?php include 'r_sidebar.php'; ?>
+<?php $theme->display('r_sidebar'); ?>
 
 </div> <!-- #content -->
 
 <!-- /entry.single -->
-<?php include 'footer.php'; ?>
+<?php $theme->display('footer'); ?>

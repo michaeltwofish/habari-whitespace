@@ -1,8 +1,8 @@
-<?php include 'header.php'; ?>
+<?php $theme->display('header'); ?>
 
 <div id="content">
 
-<?php include 'l_sidebar.php'; ?>
+<?php $theme->display('l_sidebar'); ?>
 
 <!-- entry.multiple -->
 
@@ -11,7 +11,7 @@
   <?php
   $single= false;
   foreach ( $posts as $post ) {
-    include 'entry.php';
+    $theme->display('entry');
     $first= false;
   }
   ?>
@@ -20,6 +20,6 @@
   </div> <!-- #navigation -->
 </div> <!-- #content -->
 
-<?php include 'r_sidebar.php'; ?>
+<?php $theme->display('r_sidebar'); ?>
 <!-- /entry.multiple -->
-<?php include 'footer.php'; ?>
+<?php $theme->display('footer'); ?>

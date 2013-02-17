@@ -1,9 +1,9 @@
-<?php include 'header.php'; ?>
+<?php $theme->display('header'); ?>
 <!-- login -->
 
 <div id="content">
 
-<?php include 'l_sidebar.php'; ?>
+<?php $theme->display('l_sidebar'); ?>
 
 <div id="contentleft">
   <!-- loginform -->
@@ -39,6 +39,6 @@
   <?php Plugins::act( 'theme_login' ); ?>
 </div> <!-- #content -->
 
-<?php include 'r_sidebar.php'; ?>
+<?php $theme->display('r_sidebar'); ?>
 <!-- /login -->
-<?php include 'footer.php'; ?>
+<?php $theme->display('footer'); ?>
