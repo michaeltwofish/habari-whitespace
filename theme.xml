@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<name>Whitespace</name>
+	<author>Brian Gardner (WordPress theme) and Andy Cowling (Habari port)</author>
+	<url>http://www.nbrightside.com/blog/whitespace</url>
+	<version>0.5</version>
+	<template_engine>rawphpengine</template_engine>
+</theme>
