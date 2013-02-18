@@ -641,29 +641,10 @@ blockquote{
 	border-bottom: 1px solid #666666;
 	}
 
-#commentsformheader{
-	padding-left: 0px;
+#comments{
+	font-weight: bold;
 	}
 
-#commentsform{
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
-	}
-
-#commentsform form{
-	text-align: left;
-	margin: 0px;
-	}
-
-#commentsform p{
-	margin: 0px;
-	}
-
-#commentsform form textarea{
-	width: 99%;
-	}
-	
 p.comments_link  img{
 	margin: 0px;
 	padding: 0px;
@@ -671,4 +652,53 @@ p.comments_link  img{
 	border-right-style: none;
 	border-bottom-style: none;
 	border-left-style: none;
+	}
+
+.commentform input{
+	background: #FFFFFF;
+	width: 300px;
+	color: #333333;
+	font-size: 12px;
+	font-family: Arial, Tahoma, Verdana;
+	padding: 4px;
+	margin: 0px 0px 15px 0px;
+	border-top: 1px solid #666666;
+	border-right: 1px solid #DDDDDD;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #DDDDDD;
+	}
+
+.commentform label{
+	padding: 0px 0px 15px 0px;
+	margin: 0px;
+	line-height: 20px;
+	font-size: smaller;
+	}
+
+.commentform textarea {
+	background: #FFFFFF;
+	width: 440px;
+	color: #222222;
+	font-size: 12px;
+	font-family: Arial, Tahoma, Verdana;
+	padding: 4px;
+	margin: 0px 0px 0px 0px;
+	border-top: 1px solid #666666;
+	border-right: 1px solid #DDDDDD;
+	border-left: 1px solid #666666;
+	border-bottom: 1px solid #DDDDDD;
+	}
+
+.commentform input[type='submit']{
+	background: #F2F2F2;
+	width: 150px;
+	color: #222222;
+	font-size: 12px;
+	font-family: Arial, Tahoma, Verdana;
+	padding: 4px;
+	margin: 0px 0px 0px 0px;
+	border-top: 1px solid #DDDDDD;
+	border-right: 1px solid #666666;
+	border-left: 1px solid #DDDDDD;
+	border-bottom: 1px solid #666666;
 	}

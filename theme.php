@@ -78,6 +78,18 @@ class MyTheme extends Theme
         parent::add_template_vars();
     }
 
+    public function action_form_comment( $form )
+    {
+      $form->cf_commenter->caption = 'Name';
+      $form->cf_email->caption = 'Mail (will not be published)';
+      $form->cf_url->caption = 'Website';
+      $form->cf_content->caption = '';
+      $form->cf_submit->caption = 'Submit Comment';
+      // Swap the label and input
+      $this->add_template( 'formcontrol_text', dirname(__FILE__).'/forms/formcontrol_text.php', true );
+    }
+
+
 }
 
 ?>
