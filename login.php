@@ -11,7 +11,7 @@
     <p>That login is incorrect.</p>
   <?php
   endif;
-  if ( isset( $user ) && is_object( $user ) ):
+  if ( $loggedin ):
   ?>
     <p>You are logged in as <a href="<?php URL::out( 'admin', 'page=user&user=' . $user->username ) ?>" title="Edit Your Profile"><?php echo $user->username; ?></a>.</p>
     <p>Want to <a href="<?php Site::out_url( 'habari' ); ?>/user/logout">log out</a>?</p>
