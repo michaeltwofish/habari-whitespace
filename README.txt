@@ -44,3 +44,5 @@ The Habari theme is now maintained by Michael C. Harris (michael@twofishcreative
 
 0.6 ()
     - update XML for later Habari versions
+    - use FormUI comment form
+    - update login page to work with anonymous users
