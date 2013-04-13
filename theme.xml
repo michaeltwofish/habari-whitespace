@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <pluggable type="theme">
 	<name>Whitespace</name>
+	<guid>582f7a4c-8568-4caf-b1ef-d01bb1bb030d</guid>
 	<license url="http://www.opensource.org/licenses/gpl-license.php">GNU General Public License (GPL)</license>
 	<author url="http://www.briangardner.com/">Brian Gardner (WordPress theme)</author>
 	<author url="http://www.nbrightside.com/">Andy Cowling (Habari port)</author>
